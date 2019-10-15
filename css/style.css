@@ -1,4 +1,5 @@
 /****************partie desiree***************/
+/*****************start footer***************/
 
 /*système de grille*/
 .container-fluid{
@@ -21,9 +22,16 @@
 .sp-between{
     justify-content: space-between;
 }
-/*jjj*/
+/*upfooter*/
+.upfooter{
+    border-bottom:1px solid #000000;
+}
 .bg-greylight{
     background-color:#303030;
+}
+
+.bg-darkgrey{
+    background-color:#2b2b2b;
 }
 
 .col-footer{
@@ -46,7 +54,7 @@
     color: #979797;
 }
 
-/*footer-blog*/
+/*upfooter_footer-blog*/
 .footer-col-title-h2{
     font-family: Georgia, serif;
     font-weight: lighter;
@@ -69,7 +77,7 @@ span{
     margin-bottom: 60px;
 }
 
-/*footer-link*/
+/*upfooter_footer-link*/
 .ul-footer{
     padding-inline-start: 0px;
 }
@@ -93,8 +101,7 @@ span{
     color:#76c38f;
 }
 
-
-/*footer-contact*/
+/*upfooter_footer-contact*/
 input[type=text]{
     height: 35px;
     border: 1px solid transparent;
@@ -130,6 +137,12 @@ textarea{
 font-size: 12px;
  color: #303030;
 }
+
+/*bottom-footer*/
+.bottomfooter{
+    border-top:1px solid #3a3a3a ;
+}
+
 /****************partie desiree***************/
 
 
