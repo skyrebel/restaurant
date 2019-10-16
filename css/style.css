@@ -79,7 +79,7 @@ span{
 
 /*upfooter_footer-link*/
 .ul-footer{
-    padding-inline-start: 0px;
+    padding-left: 0px;
 }
 
 .ul-footer li{
@@ -166,8 +166,6 @@ input:focus.invalid {
     color: white;
     background-color: black;
     border-radius: 0 0 5px 5px;
-   
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
   

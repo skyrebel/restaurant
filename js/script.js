@@ -1,16 +1,17 @@
 // start partie de desiree
 // script pour le formulaire
 
-function surligne(champ,erreur)
-{
-    if(erreur)
-        champ.style.border = "2px solid red";
+// bordures rouges si incorrectes sinon vertes
+function surligne(champ, erreur) {
+    if (erreur)
+    { champ.style.border = '2px solid red'; } 
     else
     {
         champ.style.border = "2px solid #76c38f";
     }
 }
 
+// champ name ok si nb de caracteres compris entre 2 et 25
 function verifName(champ)
 {
     if(champ.value.length < 2 || champ.value.lenght > 25)
@@ -25,6 +26,7 @@ function verifName(champ)
     }
 }
 
+// champ mail ok si lettres @ et . présents
 function verifMail(champ)
 {
     var regex = /^[a-zA-Z0-9._-]+@[a-z0-9._-]{2,}\.[a-z]{2,4}$/;
@@ -39,6 +41,7 @@ function verifMail(champ)
     }
 }
 
+// champ subject ok si nb de caracteres compris entre 2 et 25
 function verifSubject(champ)
 {
     if(champ.value.length < 2 || champ.value.lenght > 25)
@@ -53,6 +56,7 @@ function verifSubject(champ)
     }
 }
 
+// champ message ok si nb de caracteres compris entre 2 et 25
 function verifMessage(champ)
 {
 if(champ.value.length < 2 || champ.value.lenght > 300)
@@ -67,6 +71,7 @@ if(champ.value.length < 2 || champ.value.lenght > 300)
     }
 }
 
+//formulaire ok si verif nom mail subject et message ok
 function verifForm(f)
 {
     var nameOk = verifName(f.name);
