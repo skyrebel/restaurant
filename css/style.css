@@ -1,5 +1,5 @@
-/****************partie desiree***************/
-/*****************start footer***************/
+/*partie desiree*/
+/*start footer*/
 
 /*système de grille*/
 .container-fluid{
@@ -22,6 +22,7 @@
 .sp-between{
     justify-content: space-between;
 }
+
 /*upfooter*/
 .upfooter{
     border-bottom:1px solid #000000;
@@ -155,29 +156,28 @@ font-size: 12px;
 
 input:focus.invalid {
     outline: none;
-  }
+}
   
-  /* Voici les règles utilisées pour les messages d'erreur */
-  .error {
-    width  : 100%;
-    padding: 0;
-   
-    font-size: 80%;
-    color: white;
-    background-color: black;
-    border-radius: 0 0 5px 5px;
-    box-sizing: border-box;
-  }
-  
-  .error.active {
-    padding: 0.3em;
-  }
-
 /*bottom-footer*/
 .bottomfooter{
     border-top:1px solid #3a3a3a ;
 }
 
+/*media queries*/ 
+
+@media (max-width: 768px){
+    .col-footer{
+        width: 23%;
+    }
+
+    .text-footer{
+        word-wrap:break-word;
+    }
+}
+
+@media (max-width: 576px){
+
+}
 /****************partie desiree***************/
 
 
