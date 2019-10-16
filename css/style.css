@@ -1,0 +1,83 @@
+/* classe géneral */
+body{
+    margin: 0;
+}
+.container-fluid, .row{
+    width:100%;
+    margin: 0;
+}
+.container{
+    width: 80%;
+    max-width: 960px;
+    margin: 0 auto;
+    height: 400px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.f-justify-content-between{
+    justify-content: space-between;
+}
+
+.f-items-center{
+    align-items: center;
+}
+
+/* classe spécifique section title glenn */
+
+.col-serv{
+    width: 25%;
+    text-align: center;
+}
+.col-serv-dimension{
+    width: 227px;
+    height: 306px;
+}
+.background-white{
+    background-color: white;
+}
+
+.background-red{
+    background-color: #660000;
+}
+
+.img-service{
+    width: 120px;
+    height: 120px;
+}
+
+.service-font{
+    font-size: 42.6px;
+    color: #333333;
+    margin: 0;
+}
+
+.p-service{
+    font-size: 16px;
+    color: #333333;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.col-serv-dimension:hover{
+    
+    background-color:#76c38f;  
+}
+
+.col-serv-dimension:hover .p-service{
+    color: white;
+}
+
+.col-serv-dimension:hover .service-font{
+    color: white;
+}
+
+.font-georgia{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.p-service:hover{
+    color: white;
+}
+
