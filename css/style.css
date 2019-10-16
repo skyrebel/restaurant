@@ -12,20 +12,22 @@ html:root{
     --white: #fff;
 }
 
-body{
-    margin: 0;
-    background-color: #290000;
-}
 
 /* Système de grille */
 
 .container-fluid{
     margin:0;
     width: 100%;
-    background-color: #660000;
-    padding-bottom: 30px;
-    padding-top:20px;
+    
+    /* padding-bottom: 30px; */
+    /* padding-top:20px; */
 
+}
+.bg-red{
+    background-color: #660000;
+}
+.bg-dark-red{
+    background-color: #290000;
 }
 
 .row{
@@ -37,8 +39,8 @@ body{
     width: 80%;
     max-width: 960px;
     margin:0 auto;
-    background-color: #660000;
 }
+
 .col{
     margin:0;
     padding: 15px;
@@ -116,12 +118,10 @@ background-image: url(../media/crevettes.jpg);
 .img-photo-size{
     width: 290px;
     height: 190px;
-
 }
 
 .div-photo-size:hover{
     border: 5px solid rgba(91, 230, 91, 0.801);
-
 }
 
 .div-photo-size:hover p {
