@@ -153,3 +153,171 @@ ul > li.active{
     border: 2px solid var(--blue);
     border-radius: 10px;
 }
+.fd-column{
+    flex-direction: column;
+}
+
+.sp-between{
+    justify-content: space-between;
+}
+/*upfooter*/
+.upfooter{
+    border-bottom:1px solid #000000;
+}
+.bg-greylight{
+    background-color:#303030;
+}
+
+.bg-darkgrey{
+    background-color:#2b2b2b;
+}
+
+.col-footer{
+    width: 23%;
+}
+
+.footer-col-title-h1{
+    font-family: Georgia, serif;
+    font-size:20px;
+    font-weight: lighter;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.text-footer{
+    font-size:17px;
+    font-family: Georgia, serif;
+    line-height: 30px;
+    color: #979797;
+}
+
+/*upfooter_footer-blog*/
+.footer-col-title-h2{
+    font-family: Georgia, serif;
+    font-weight: lighter;
+    font-size:18px;
+    color: #76c38f;
+}
+
+span{
+    color:#76c38f;
+}
+
+.admin{
+    font-size:14px;
+    color: #979797;
+}
+
+.readmore{
+    font-size:17px;
+    color: #76c38f;
+    margin-bottom: 60px;
+}
+
+/*upfooter_footer-link*/
+.ul-footer{
+    padding-left: 0px;
+}
+
+.ul-footer li{
+    font-size:17px;
+    font-family: Georgia, serif;
+    list-style-type: none;
+    padding-top:15px;
+    padding-bottom:10px;
+    border-bottom: 1px solid #979797 ;
+}
+
+.ul-footer li:before{
+    content:"\BB \ ";
+    color:#76c38f;
+}
+
+.ul-footer li a{
+    text-decoration: none;
+    color:#76c38f;
+}
+
+/*upfooter_footer-contact*/
+input[type=text]{
+    height: 35px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    margin-bottom: 10px; 
+    font-family: Georgia, serif;
+    font-size: 17px;
+    color: #979797;
+    background-color: #222222;
+    padding-left:10px;
+    outline: none;
+}
+
+.email{
+    height: 35px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    margin-bottom: 10px; 
+    font-family: Georgia, serif;
+    font-size: 17px;
+    color: #979797;
+    background-color: #222222;
+    padding-left:10px; 
+    outline: none;
+}
+
+textarea{
+    height: 80px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-family: Georgia, serif;
+    font-size: 17px;
+    color: #979797;
+    background-color: #222222;
+    padding-left:10px;
+    padding-top: 8px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.boutonsubmit{
+ background-color: #76c38f;   
+ border:1px solid transparent;
+ height: 35px;
+ width:75px;
+ border-radius: 8px;
+ font-family: Georgia, serif;
+font-size: 12px;
+ color: #303030;
+}
+
+input:focus.invalid {
+    outline: none;
+  }
+  
+  /* Voici les règles utilisées pour les messages d'erreur */
+  .error {
+    width  : 100%;
+    padding: 0;
+   
+    font-size: 80%;
+    color: white;
+    background-color: black;
+    border-radius: 0 0 5px 5px;
+    box-sizing: border-box;
+  }
+  
+  .error.active {
+    padding: 0.3em;
+  }
+
+/*bottom-footer*/
+.bottomfooter{
+    border-top:1px solid #3a3a3a ;
+}
+
+/****************partie desiree***************/
+
+
+
+
