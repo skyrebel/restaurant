@@ -1,0 +1,140 @@
+body{
+margin: 0;
+}
+
+/* <!--- partie sylvain -->
+
+<-- section " LATEST WORK "--> */
+
+.container-fluid{
+    margin:0;
+    width: 100%;
+    background-color: #660000;
+    padding-bottom: 30px;
+    padding-top:20px;
+
+}
+
+.container{
+    width: 80%;
+    max-width: 960px;
+    margin:0 auto;
+    background-color: #660000;
+}
+.col{
+    margin:0;
+    padding: 15px;
+
+}
+.f-column{
+flex-direction: column;
+}
+
+.d-flex{
+    display: flex;
+}
+.f-justify-content-center{
+    justify-content: center;
+}
+
+.f-justify-content-between{
+    justify-content: space-between;
+
+}
+.f-align-items-center{
+    align-items:center;
+
+}
+
+.f-wrap{
+    flex-wrap: wrap;
+
+}
+
+/* <-- Section Photos --> */
+
+.div-photo-size{
+    width:290px;
+    height:190px;
+    border: 5px solid white;
+    margin-bottom: 20px;
+    
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.img-div-photo-size-1{
+background-image: url(../media/crevettes.jpg);
+}
+
+.img-div-photo-size-2{
+    background-image: url(../media/paella.jpg);
+    }
+    .img-div-photo-size-3{
+        background-image: url(../media/plat-cuisine.jpg);
+        }
+
+        .img-div-photo-size-4{
+            background-image: url(../media/plats.png);
+            }
+            .img-div-photo-size-5{
+                background-image: url(../media/poulet.jpg);
+                }
+                .img-div-photo-size-6{
+                    background-image: url(../media/torsades.jpg);
+                    }
+.img-photo-size{
+    width: 290px;
+    height: 190px;
+
+}
+
+.div-photo-size:hover{
+    border: 5px solid rgba(91, 230, 91, 0.801);
+
+}
+
+.div-photo-size:hover p {
+display: none;
+
+}
+
+
+/* <-- Section title LATESTE WORK--> */
+
+
+.latest-work-p{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(246, 246, 250);
+    background: rgba(46, 44, 44, 0.733);
+    opacity: 0.9;
+    height: 20px;
+    padding: 5px 0;
+    margin: 0;
+
+}
+
+.title-latest-work{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.9rem;
+    background-color: #353535;
+    color: white;
+   border-radius: 10px;
+   padding:10px;
+}
+
+.bar{
+    background-color: #353535;
+    height:4px;
+    width: 100%;
+    margin-bottom: -30px;
+}
+
+
+
+
+
+
