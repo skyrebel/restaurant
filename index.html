@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
+    <script src='js/script.js' async></script>
     <title>Document</title>
 </head>
 
@@ -14,7 +15,7 @@
     <!--------------  start footer ------------>
     <footer>
         <div class="container-fluid bg-greylight">
-            <div class=" row upfooter">
+            <div class="row upfooter">
                 <div class="container d-flex sp-between">
                     <div class="col-footer blog">
                         <h1 class="footer-col-title-h1">From The Blog</h1>
@@ -32,13 +33,13 @@
                     <div class="col-footer links">
                         <h1 class="footer-col-title-h1">Quick Links</h1>
                         <ul class="ul-footer">
-                            <li><a href="">Lorem ipsum dolor sit</a></li>
-                            <li><a href="">Amet consectetur</a></li>
-                            <li><a href="">Praesent vel sem id</a></li>
-                            <li><a href="">Curabitur hendrerit est</a></li>
-                            <li><a href="">Aliquam eget erat nec sapien</a></li>
-                            <li><a href="">Cras id augue nunc</a></li>
-                            <li><a href="">Sed a nulla urna</a></li>
+                            <li class="li-footer-links"><a href="">Lorem ipsum dolor sit</a></li>
+                            <li class="li-footer-links"><a href="">Amet consectetur</a></li>
+                            <li class="li-footer-links"><a href="">Praesent vel sem id</a></li>
+                            <li class="li-footer-links"><a href="">Curabitur hendrerit est</a></li>
+                            <li class="li-footer-links"><a href="">Aliquam eget erat nec sapien</a></li>
+                            <li class="li-footer-links"><a href="">Cras id augue nunc</a></li>
+                            <li class="li-footer-links"><a href="">Sed a nulla urna</a></li>
                         </ul>
                     </div>
 
@@ -60,12 +61,21 @@
 
                     <div class="col-footer contact">
                         <h1 class="footer-col-title-h1">Contact Us</h1>
-                        <form method="post" action="traitement.php" class="d-flex fd-column">
-                            <input id="fullname" type="text" name="name" value="Full Name" />
-                            <input id="fullname" type="text" name="name" value="Email Address" />
-                            <input id="fullname" type="text" name="name" value="Subject" />
-                            <textarea name="message" id="message">Message</textarea>
-                            <input type="submit" value="MESSAGE" class="boutonsubmit">
+                        <form method="post" action="traitement.php" onsubmit="return verifForm(this)" class="d-flex fd-column">
+
+                            <input type="text" id="name" name="name" placeholder="Full Name" onblur="verifName(this)" />
+                            <span id="error-name" aria-live="polite"></span>
+
+                            <input type="text" class="email" id="mail" name="mail" placeholder="Email Address" onblur="verifMail(this)" placeholder="utilisateur@domaine.fr"/>
+                            <span id="error-mail" aria-live="polite"></span>
+
+                            <input type="text" id="subject" name="subject" placeholder="Subject" onblur="verifSubject(this)" />
+                            <span id="error" aria-live="polite"></span>
+
+                            <textarea id="message" name="message" placeholder="Message" onblur="verifMessage(this)" ></textarea>
+                            <span id="error" aria-live="polite"></span>
+
+                            <input type="submit" id="submit-button" value="MESSAGE" class="boutonsubmit">
                         </form>
 
                     </div>
@@ -87,8 +97,8 @@
 
         </div>
     </footer>
-     <!--------------  end footer --------------->
-     <!--------------partie desiree-------------->
+    <!--------------  end footer --------------->
+    <!--------------partie desiree-------------->
 
 
 
