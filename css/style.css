@@ -1,29 +1,4 @@
-/* classe géneral */
-body{
-    margin: 0;
-}
-.container-fluid, .row{
-    width:100%;
-    margin: 0;
-}
-.container{
-    width: 80%;
-    max-width: 960px;
-    margin: 0 auto;
-    height: 400px;
-}
 
-.d-flex{
-    display: flex;
-}
-
-.f-justify-content-between{
-    justify-content: space-between;
-}
-
-.f-items-center{
-    align-items: center;
-}
 
 /* classe spécifique section title glenn */
 
@@ -37,10 +12,6 @@ body{
 }
 .background-white{
     background-color: white;
-}
-
-.background-red{
-    background-color: #660000;
 }
 
 .img-service{
@@ -80,4 +51,15 @@ body{
 .p-service:hover{
     color: white;
 }
+
+/* systeme slider */
+
+.fleche{
+    align-self: center;
+}
+.slide-hid{
+ display: none;
+}
+
+
 
