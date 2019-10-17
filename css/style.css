@@ -25,6 +25,8 @@ html:root{
 }
 .bg-red{
     background-color: #660000;
+    padding-top:50px;
+    /* padding-bottom:50px; */
 }
 .bg-dark-red{
     background-color: #290000;
