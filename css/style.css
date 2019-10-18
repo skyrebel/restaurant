@@ -1273,7 +1273,6 @@ font-size: 22px;
 margin-bottom: 20px;
 }
 
-
 .quicklinks{
 font-size:40px;
 }
@@ -1298,15 +1297,14 @@ font-size: 18px;
 margin-bottom: 20px;
 }
 
-.copyright-section{
-flex-direction: column;
-padding-bottom: 10px;
-}
-
 .text-copy{
 font-size: 20px;
 margin: 6px auto;
 }
 
+.copyright-section{
+    flex-direction: column;
+    padding-bottom: 10px;
+}
 }
     
