@@ -504,26 +504,45 @@ input:focus.invalid {
 }
 
 
-/****************partie desiree***************/
-
 /*media queries*/ 
 
-@media (max-width: 1200px){
-
+/********************* max-width: 1199px ************************/
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1200px) { 
     
-}
-
-
-@media (max-width: 768px){
-    .col-footer{
-        width: 23%;
+.container{
+    width: 100%;
     }
 
-    .text-footer{
-        word-wrap:break-word;
-    }
+.col-footer{
+    font-size: 25px;
+}
+.latest-work-p{
+
+    font-size: 20px;
+}
+.text-footer{
+    font-size: 20px;
 }
 
-@media (max-width: 576px){
+.li-footer-links{
+    font-size: 23px;
+}
+
+.p-service{
+    font-size: 20px;
+}
+
+.size-16{
+    font-size: 20px;
+}
 
 }
+
+
+
+
+
+
+
+
