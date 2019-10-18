@@ -196,6 +196,7 @@ ul > li.active{
     border-radius: 10px;
 }
 
+
 /* systeme slider */
 
 .fleche{
@@ -508,22 +509,7 @@ input:focus.invalid {
 
 /*media queries*/ 
 
-@media (max-width: 1200px){
-
+@media (min-width: 576px) and (max-width: 767.98px){
     
 }
 
-
-@media (max-width: 768px){
-    .col-footer{
-        width: 23%;
-    }
-
-    .text-footer{
-        word-wrap:break-word;
-    }
-}
-
-@media (max-width: 576px){
-
-}
