@@ -202,6 +202,7 @@ body{
         border-radius: 10px;
     }
     
+
     /* systeme slider */
     
     .fleche{
@@ -212,7 +213,7 @@ body{
      display: none;
     }
     
-    
+
     /* classe spécifique section title glenn */
     
     .col-serv{
@@ -725,12 +726,7 @@ input:focus.invalid {
 }
 
 }
-    
 
-
-
-    
-   
 
 @media (min-width: 576px) and (max-width: 767.98px) {
 
@@ -806,10 +802,10 @@ input:focus.invalid {
         opacity: 0;
         transform: rotate(0deg) scale(0.2, 0.2);
             }
-            
         /*
         * Ohyeah and the last one should go the other direction
         */
+
     #menuToggle .input-burger:checked ~ span:nth-last-child(2){
         opacity: 1;
         transform: rotate(-45deg) translate(0, -1px);
