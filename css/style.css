@@ -695,7 +695,7 @@ input:focus.invalid {
 
 /********************* max-width: 1199px ************************/
 /*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1200px) { 
+@media (min-width:992px) and (max-width:1200px) { 
     
 .container{
     width: 100%;
@@ -713,11 +713,11 @@ input:focus.invalid {
 }
 
 .li-footer-links{
-    font-size: 23px;
+    font-size: 21px;
 }
 
 .p-service{
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .size-16{
@@ -726,6 +726,10 @@ input:focus.invalid {
 
 }
     
+
+
+
+
     
     @media (max-width: 575px){
         
