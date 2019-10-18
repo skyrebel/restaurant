@@ -508,22 +508,7 @@ input:focus.invalid {
 
 /*media queries*/ 
 
-@media (max-width: 1200px){
-
-    
-}
 
 
-@media (max-width: 768px){
-    .col-footer{
-        width: 23%;
-    }
 
-    .text-footer{
-        word-wrap:break-word;
-    }
-}
 
-@media (max-width: 576px){
-
-}
