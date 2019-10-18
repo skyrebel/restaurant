@@ -511,22 +511,12 @@ body{
     
     
     
-    
-    /***************** menu burger ************************************************* */
-    
-    
-    
-    
-    
-    
-    
     /*media queries*/ 
     
     
     @media (max-width: 575px){
         
-    
-      
+    /* menu burger *************************************************************************************************************************/
         
         a
         {
@@ -637,13 +627,13 @@ body{
         {
           position: absolute;
           flex-direction: column;
-          width: 300px;
+          width: 500px;
           margin: -100px 0 0 0;
           padding: 50px;
           padding-top: 125px;
           right: -100px;
           
-          background: #ededed;
+          background: #660000ec;
           list-style-type: none;
           -webkit-font-smoothing: antialiased;
           /* to stop flickering of text in safari */
@@ -669,4 +659,135 @@ body{
           opacity: 1;
         }
     
+
+/**************** menu header ***********************************************************************************/
+
+       .border-grey {
+           display: none;
+       }
+
+       .col-width{
+           width: 100%;
+           max-width: 100%;
+       }
+       .slide{
+           flex-direction: column;
+       }
+
+       .text-grey {
+        color: #979797;
+        margin-right: 50px;
+       }
+
+       .m-0 {
+        
+        margin-right: 35px;
+        font-size: 42px;
+        }
+
+        .mt-1 {
+            margin-top: 50px;
+        }
+
+        .text-grey{
+            margin-top: 25px;
+            font-size: 20px;
+        }
+
+        .p-5{
+            margin-left: -10px;
+            margin-top: 20px
+        }
+
+
+      
+        /* ******************service title ******************************************************************** */
+
+        .latest-work-p{
+            font-size: 30px;
+            padding-bottom: 25px;
+        }
+        .title-column{
+            flex-direction: column;
+        }
+        .col-serv-dimension{
+            margin-bottom: 50px;
+            width: 300px;
+            height: 345px;
+        }
+
+        .p-service {
+            font-size: 20px;
+        }
+
+        /*********************** latest work*********************************************************** */
+
+    
+        .title-justify-center{
+            justify-content: center;
+        }
+
+        .div-photo-size{
+            margin-top: 45px;
+        }
+
+        /**************** footer *******************************************************************/
+
+        .footer-column{
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .col-footer{
+            width: 100%;
+        }
+
+        .footer-col-title-h1{
+            font-size: 35px;
+        }
+
+        .footer-col-title-h2{
+            font-size: 30px;
+        }
+        .text-footer{
+            font-size: 25px ;
+            line-height: 30px;
+        }
+
+        .admin{
+            font-size: 25px;
+        }
+
+        .readmore{
+            font-size: 25px;
+        }
+
+        .quicklinks{
+            font-size: 35px;
+        }
+
+        .li-footer-links{
+            font-size: 25px;
+        }
+
+        .boutonsubmit{
+            margin-bottom: 15px;
+            height: 40px;
+            width: 114px;
+            font-size: 15px;
+        }
+        .text-copy{
+            font-size: 15px;
+        }
+        input[type=text]{
+            height: 50px;
+            margin-bottom: 15px;
+        }
+        textarea{
+            margin-bottom: 15px;
+        }
+        .copyright-section{
+            flex-direction: column;
+            padding-bottom: 10px;
+        }
     }
