@@ -61,6 +61,7 @@ body{
         justify-content: space-between;  
     
     }
+    
     .justify-content-around{
         justify-content: space-around;
     }
@@ -1125,6 +1126,7 @@ transform: rotate(0deg) scale(0.2, 0.2);
 opacity: 1;
 transform: rotate(-45deg) translate(0, -1px);
 }
+
 /*
 * Make this absolute positioned
 * at the top left of the screen
@@ -1410,9 +1412,9 @@ margin: 6px auto;
               
               transform-origin: 4px 0px;
               
-              transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-                          background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-                          opacity 0.55s ease;
+              transition: transform: 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+                          background: 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+                          opacity: 0.55s ease;
             }
             
             #menuToggle span:first-child
