@@ -1,5 +1,5 @@
 body{
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     margin: 0;
     }
     
@@ -1518,7 +1518,7 @@ margin: 6px auto;
     flex-direction: column;
     padding-bottom: 10px;
 }
-}
+
 
             .text-center{
                 text-align: left;      
@@ -1663,7 +1663,7 @@ margin: 6px auto;
             {
               position: absolute;
               flex-direction: column;
-              width: 720px;
+              width: 400px;
               margin: -100px 0 0 0;
               padding: 50px;
               padding-top: 125px;
@@ -1697,4 +1697,5 @@ margin: 6px auto;
             }
         
         
+}
     
