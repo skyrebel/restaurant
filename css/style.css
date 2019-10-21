@@ -1,5 +1,5 @@
 body{
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     margin: 0;
     }
     
@@ -751,11 +751,23 @@ input:focus.invalid {
         text-align: left;      
     }
 
-    .f-justify-content-around{
-        justify-content: space-around;
-        padding-top: 10px;
+    .col-width{
+        padding:0;
+        max-width: 100%;
+
+    }
+    .read{
+        margin:0 auto;
     }
 
+    .width-50{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .col-serv-dimension{
+        margin-bottom: 30px;
+    }
     /* classe media queries 768 a 991 (voir hmtl ligne 173) */
 
     .p-2{
@@ -769,8 +781,14 @@ input:focus.invalid {
         margin-left: -10px;
     }
 
-    .size-16{
+    .p-5{
         font-size: 20px;
+        padding-left: 13px;
+        
+    }
+
+    .size-16{
+        font-size: 25px;
     }
 
     a
@@ -890,7 +908,7 @@ input:focus.invalid {
       margin: -100px 0 0 0;
       padding: 50px;
       padding-top: 125px;
-      right: -50px;
+      right: -80px;
       
       background: #660000ec;
       list-style-type: none;
@@ -1030,7 +1048,7 @@ width: 500px;
 margin: -100px 0 0;
 padding: 50px;
 padding-top: 125px;
-right: -50px;
+right: -80px;
 background: #660000ec;
 list-style-type: none;
 -webkit-font-smoothing: antialiased;
@@ -1346,11 +1364,12 @@ transform: rotate(-45deg) translate(0, -1px);
 #menu{
 position: absolute;
 flex-direction: column;
+align-content: center;
 width: 500px;
 margin: -100px 0 0;
 padding: 50px;
 padding-top: 125px;
-right: -50px;
+right: -80px;
 background: #660000ec;
 list-style-type: none;
 -webkit-font-smoothing: antialiased;
@@ -1518,184 +1537,4 @@ margin: 6px auto;
     flex-direction: column;
     padding-bottom: 10px;
 }
-
-
-            .text-center{
-                text-align: left;      
-            }
-
-            .f-justify-content-around{
-                justify-content: space-around;
-                padding-top: 10px;
-            }
-
-           .width-50{
-               flex-wrap: wrap;
-           }
-
-           .col-serv-dimension{
-               margin-bottom: 30px;
-           }
-            /* classe media queries 768 a 991 (voir hmtl ligne 173) */
-
-            .p-2{
-                margin-right: -5px;
-                margin-left: -6px;
-            }
-
-            /* classe media queries 768 a 991 (voir hmtl ligne 183) */
-
-            .p-3{
-                margin-left: -10px;
-            }
-
-            .size-16{
-                font-size: 20px;
-            }
-
-            a
-            {
-              text-decoration: none;
-              color: #232323;
-              
-              transition: color 0.3s ease;
-            }
-            
-           
-            #menuToggle
-            {
-              display: block;
-              position: absolute;
-              top: 50px;
-              right: 50px;
-              z-index: 1;
-              
-              -webkit-user-select: none;
-              user-select: none;
-            }
-            
-            #menuToggle input
-            {
-              display: block;
-              width: 40px;
-              height: 32px;
-              position: absolute;
-              top: -7px;
-              left: -5px;
-              
-              cursor: pointer;
-              
-              opacity: 0; /* hide this */
-              z-index: 2; /* and place it over the hamburger */
-              
-              -webkit-touch-callout: none;
-            }
-            
-            /*
-             * Just a quick hamburger
-             */
-            #menuToggle span
-            {
-              display: block;
-              width: 33px;
-              height: 4px;
-              margin-bottom: 5px;
-              position: relative;
-              
-              background: #cdcdcd;
-              border-radius: 3px;
-              
-              z-index: 1;
-              
-              transform-origin: 4px 0px;
-              
-              /* transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0); */
-                          background: 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-                          opacity: 0.55s ease;
-            }
-            
-            #menuToggle span:first-child
-            {
-              transform-origin: 0% 0%;
-            }
-            
-            #menuToggle span:nth-last-child(2)
-            {
-              transform-origin: 0% 100%;
-            }
-            
-            /* 
-             * Transform all the slices of hamburger
-             * into a crossmark.
-             */
-            #menuToggle .input-burger:checked ~ span
-            {
-              opacity: 1;
-              transform: rotate(45deg) translate(-2px, -1px);
-              background: #232323;
-            }
-            
-            /*
-             * But let's hide the middle one.
-             */
-            #menuToggle .input-burger:checked ~ span:nth-last-child(3)
-            {
-              opacity: 0;
-              transform: rotate(0deg) scale(0.2, 0.2);
-            }
-            
-            /*
-             * Ohyeah and the last one should go the other direction
-             */
-            #menuToggle .input-burger:checked ~ span:nth-last-child(2)
-            {
-              opacity: 1;
-              transform: rotate(-45deg) translate(0, -1px);
-            }
-            #menuToggle .input-burger:checked ~ #menu{
-                display: block;
-            }
-            /*
-             * Make this absolute positioned
-             * at the top left of the screen
-             */
-            #menu
-            {
-              position: absolute;
-              flex-direction: column;
-              width: 400px;
-              margin: -100px 0 0 0;
-              padding: 50px;
-              padding-top: 125px;
-              right: -50px;
-              display: none;
-              background: #660000ec;
-              list-style-type: none;
-              -webkit-font-smoothing: antialiased;
-              /* to stop flickering of text in safari */
-              
-              transform-origin: 0% 0%;
-              transform: translate(100%, 0);
-              
-              transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-              border-radius: 0 0 0 10px;
-            }
-            
-            #menu li
-            {
-              padding: 10px 0;
-              font-size: 22px;
-            }
-            
-            /*
-             * And let's fade it in from the left
-             */
-            #menuToggle .input-burger:checked ~ ul
-            {
-              transform: scale(1.0, 1.0);
-              opacity: 1;
-            }
-        
-        
 }
-    
