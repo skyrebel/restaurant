@@ -1335,6 +1335,13 @@ margin: 6px auto;
                 padding-top: 10px;
             }
 
+           .width-50{
+               flex-wrap: wrap;
+           }
+
+           .col-serv-dimension{
+               margin-bottom: 30px;
+           }
             /* classe media queries 768 a 991 (voir hmtl ligne 173) */
 
             .p-2{
