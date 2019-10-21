@@ -691,7 +691,7 @@ input:focus.invalid {
 
 /********************* max-width: 1199px ************************/
 /*Large devices (desktops, 992px and up)*/
-@media (min-width:992px) and (max-width:1200px) { 
+@media (min-width:992px) and (max-width:1199px) { 
     
 .container{
     width: 100%;
